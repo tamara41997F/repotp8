@@ -1,0 +1,219 @@
+table td {
+    width: 10em;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.dias1 {
+    background-color: aquamarine;
+}
+
+.dias {
+    font-size: 30px;
+}
+
+.dias2 {
+    background-color: yellowgreen;
+}
+
+.dias3 {
+    background-color: lightcoral;
+}
+
+.dias4 {
+    background-color: yellow;
+}
+
+.dias5 {
+    background-color: lightsalmon;
+}
+
+body {
+    font-family: system-ui,sans-serif;
+    background-color: #e0e0e0;
+}
+
+header {
+    background-color: lightblue;
+    width: 100%;
+    height: 70%;
+}
+
+footer {
+    background-color: aquamarine;
+    width: 100%;
+    height: 50%;
+}
+
+/*Estilo de Formulario*/
+    
+* {
+    box-sizing: border-box;
+
+}
+
+
+.container {
+    background-color: lightcyan;
+    font-family: 'Quicksand',sans-serif;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span {
+    color: rgb(137, 203, 244);
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(99, 175, 230, 0.725);
+}
+
+.contact-wrapper >* {
+    padding: 1em;
+    background-color: lightblue;
+}
+
+.contact-form {
+    background-color: lightblue;
+}
+
+.contact-info {
+    background-image: url(https://img.freepik.com/fotos-premium/foto-conjunto-paneles-solares-campo-soleado_778780-1591.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: center;
+}
+
+.contact-form form {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-info h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact-info p {
+    font-weight: bold;
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
+}
+
+.contact-info ul {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 20px;
+    padding: 10px;
+    color: #e0e0e0;
+}
+
+
+/*LARGE SCREEN*/
+@media (min-width: 700px) {
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-info ul {
+        color: rgb(5, 41, 53);
+    }
+}
+
+
+
+
+
+
+
+/*Estilo Pagina Principal*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header {
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+}
+
+
+ul  {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+li:hover {
+    background: aquamarine;
+    padding: 4px 8px;
+    border-radius: 8px;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+    font-size: 20px;
+    transition: all 0.3s;
+
+}
+
+main {
+    padding: 0px 20px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+
+footer  {
+    height: 100px;
+    background-color: aquamarine;
+    color: black;
+    margin-top: auto;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
